@@ -3,6 +3,7 @@ baseURL = "https://buta7.github.io/blog-hugo/"
 languageCode = "ja"
 title = "Buta7 Blog by Hugo Forty"
 theme = "forty"
+publishDir = "docs"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""

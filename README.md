@@ -4,7 +4,7 @@
 
 ### forty
 
-ポートを指定してサービス起動するとcssを読まない
+ポートを指定してサービス起動するとcssを読まない(デフォルトの1313を使う)
 
 ## セットアップ
 
@@ -15,11 +15,11 @@
 テーマ設定(テーマをカスタマイズせずそのまま使う場合はsubmodule化がよい)
 
     $ cd blog-hugo/themes
-    $ git submodule add https://github.com/g1eny0ung/hugo-theme-dream.git
+    $ git submodule add https://github.com/MarcusVirg/forty.git
 
 サイト設定
 
-    $ cp -pr ./themes/hugo-theme-dream/{archetypes,i18n,images,layouts,static} .
+    $ cp -pr ./themes/hugo-theme-dream/exampleSite/* .
     $ cp -pr ./themes/hugo-theme-dream/exampleSite/config.toml .
     vi config.toml
     baseURL = "http://buta7.github.io/blog-hugo/"
