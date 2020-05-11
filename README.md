@@ -10,11 +10,11 @@
 
 サイト作成
 
-    $ hugo new site blog-hugo
+    $ hugo new site buta7-forty
 
 テーマ設定(テーマをカスタマイズせずそのまま使う場合はsubmodule化がよい)
 
-    $ cd blog-hugo/themes
+    $ cd buta7-forty/themes
     $ git submodule add https://github.com/MarcusVirg/forty.git
 
 サイト設定
@@ -22,10 +22,10 @@
     $ cp -pr ./themes/hugo-theme-dream/exampleSite/* .
     $ cp -pr ./themes/hugo-theme-dream/exampleSite/config.toml .
     vi config.toml
-    baseURL = "http://buta7.github.io/blog-hugo/"
+    baseURL = "http://buta7.github.io/buta7-forty/"
     languageCode = "ja"
     title = "Buta7 Web Site by Hugo"
-    theme = "hugo-theme-dream"
+    theme = "forty"
 
 ## 使い方
 
@@ -90,5 +90,4 @@ config.tomlに以下の設定
 
 ## Link
 
-* [Hugo \+ Github Pagesでブログを公開してみた \- Qiita](https://qiita.com/eichann/items/4fe61b8b9bbafcfbe847)
-* [GitHub PagesとHugoでブログをつくった \- meow\.md](https://uzimihsr.github.io/post/2019-08-07-create-blog-1/)
+* [Forty \| Hugo Themes](https://themes.gohugo.io/forty/)
