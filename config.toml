@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://buta7.github.io/blog-hugo/"
+baseURL = "https://buta7.github.io/hugo-forty/"
 languageCode = "ja"
 title = "Buta7 Blog"
 theme = "forty"

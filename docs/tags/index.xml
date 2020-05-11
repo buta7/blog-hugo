@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Buta7 Blog</title>
-    <link>https://buta7.github.io/blog-hugo/tags/</link>
+    <link>https://buta7.github.io/hugo-forty/tags/</link>
     <description>Recent content in Tags on Buta7 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     
-	<atom:link href="https://buta7.github.io/blog-hugo/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://buta7.github.io/hugo-forty/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
