@@ -14,7 +14,9 @@
 
 テーマ設定(テーマをカスタマイズせずそのまま使う場合はsubmodule化がよい)
 
-    $ cd buta7-forty/themes
+    $ cd buta7-forty
+    $ git init
+    $ cd themes
     $ git submodule add https://github.com/MarcusVirg/forty.git
 
 サイト設定
@@ -81,7 +83,7 @@
 
 config.tomlに以下の設定
 
-    baseURL = "https://higebobo.github.com/blog-hugo/"
+    baseURL = "https://buta7.github.com/blog-hugo/"
     publishDir = "docs"
 
 公開(githubにプッシュ)
