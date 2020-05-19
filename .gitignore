@@ -2,4 +2,4 @@
 *~
 *.orig
 Makefile
-*.env
+.env
