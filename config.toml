@@ -22,6 +22,7 @@ disqusShortname = ""
   # Provide your metadata here.
   name = "buta7"
   description = "Your description"
+  baseURL = "https://buta7.github.io/hugo-forty/"
 
   # Link custom assets relative to /static
   custom_css = []
