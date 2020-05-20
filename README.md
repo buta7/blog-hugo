@@ -14,7 +14,7 @@
 hugo new site buta7-forty
 ```
 
-テーマ設定(テーマをカスタマイズせずそのまま使う場合はsubmodule化がよい)
+テーマ設定
 
 ```shell
 cd buta7-forty
@@ -38,7 +38,7 @@ title = "Buta7 Web Site by Hugo"
 theme = "forty"
 ```
 
-既存のレポジトリからクローンする場合
+## 既存のレポジトリからクローンする場合
 
 ```shell
 git clone git@github.com:buta7/hugo-forty.git buta7-forty
