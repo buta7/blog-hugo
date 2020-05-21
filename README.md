@@ -38,6 +38,24 @@ title = "Buta7 Web Site by Hugo"
 theme = "forty"
 ```
 
+> github pagesやnetlifyで使う場合はbaseURLのプロトコルはhttpsにすること
+
+Githubレポジトリ作成後
+
+```shell
+cp somplace/{Makefile,deploy.sh} .
+git remote add origin git@github.com:higebobo/hugo-frances.git
+make deploy
+```
+
+Github>Settings>Gighub Pages>Source>gh-pages branch
+
+## Github Actionsの利用
+
+* .github/workflows/gh-pages.yamlを作成
+    * ソースはmasterブランチ
+    * 出力はpublicフォルダの内容をgh-pagesブランチ
+
 ## 既存のレポジトリからクローンする場合
 
 ```shell
@@ -67,16 +85,9 @@ vi content/posts/2020/05/helloworld.md
 
 ```shell
 vi content/posts/2020/05/helloworld.md
-...
 draft: false
-...
 ```
 
-(古い情報)下書きモード解除
-
-```shell
-hugo undraft content/posts/2020/05/helloworld.md
-```
 
 固定ページの作成(architypeのabout.mdを使う)
 
@@ -107,15 +118,6 @@ hugo new about/_index.md
 
 ```shell
 make run
-```
-
-## Github連携
-
-config.tomlに以下の設定
-
-```toml
-baseURL = "https://buta7.github.com/blog-hugo/"
-publishDir = "docs"
 ```
 
 公開(githubにプッシュ)
