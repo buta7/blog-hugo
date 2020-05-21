@@ -48,13 +48,12 @@ git remote add origin git@github.com:higebobo/hugo-frances.git
 make deploy
 ```
 
-Github>Settings>Gighub Pages>Source>gh-pages branch
-
 ## Github Actionsの利用
 
 * .github/workflows/gh-pages.yamlを作成
     * ソースはmasterブランチ
     * 出力はpublicフォルダの内容をgh-pagesブランチ
+        * Github>Settings>Gighub Pages>Source>gh-pages branch
 
 ## 既存のレポジトリからクローンする場合
 
